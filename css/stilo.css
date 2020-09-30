@@ -1,3 +1,10 @@
 h1{
     text-align: center;
 }
+#contenedor{
+    width: 400px;
+    height: 400px;
+    float: center;
+    border: 1px solid #444;
+    margin: 0 auto 0 auto;
+}
