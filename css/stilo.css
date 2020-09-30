@@ -6,17 +6,33 @@ h1{
     height: 400px;
     border: 1px solid #444;
     margin: 0 auto 0 auto;
+    
 }
 .hijo1{
     width: 200px;
     height: 200px;
     background-color: blue;
+    float: left;
 }
 .hijo2{
     width: 200px;
     height: 200px;
     background-color: cornflowerblue;
+    float: left;
 
+
+
+}
+.hijo3{
+    background-color: cornsilk;
+}
+.hijo4{
+    background-color: crimson;
+}
+.hijo3,.hijo4{
+    width: 200px;
+    height: 200px;
+    float: right;
 
 
 }
