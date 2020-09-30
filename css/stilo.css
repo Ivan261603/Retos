@@ -4,7 +4,19 @@ h1{
 #contenedor{
     width: 400px;
     height: 400px;
-    float: center;
     border: 1px solid #444;
     margin: 0 auto 0 auto;
+}
+.hijo1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.hijo2{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+
+
+
 }
