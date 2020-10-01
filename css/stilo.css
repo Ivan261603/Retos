@@ -2,7 +2,8 @@ h1{
     text-align: center;
 }
 #contenedor{
-    width: 400px;
+    
+    width: 500px;
     height: 400px;
     border: 1px solid #444;
     margin: 0 auto 0 auto;
@@ -18,21 +19,23 @@ h1{
     width: 200px;
     height: 200px;
     background-color: cornflowerblue;
-    float: left;
+    float: right;
 
 
 
 }
 .hijo3{
+    float: left;
     background-color: cornsilk;
 }
 .hijo4{
     background-color: crimson;
+    float: right;
 }
 .hijo3,.hijo4{
     width: 200px;
     height: 200px;
-    float: right;
+  
 
 
 }
