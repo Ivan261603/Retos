@@ -3,23 +3,30 @@ h1{
 }
 #contenedor{
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border: 1px solid #444;
     margin: 0 auto 0 auto;
     
 }
 .hijo1{
-   
-    width: 200px;
-    height: 200px;
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+    top: 25%;
+    left: 25%;
+    width: 100px;
+    height: 100px;
     background-color: blue;
     float: left;
 }
 .hijo2{
-    
-    width: 200px;
-    height: 200px;
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+    top: 25%;
+    width: 100px;
+    height: 100px;
     background-color: cornflowerblue;
     float: right;
 
@@ -30,19 +37,20 @@ h1{
     position: absolute;
     float: right;
     background-color: black;
-    bottom: 0;
-    left: 0;
+    bottom: 150px;
+    left: 150px;
+    
 }
 .hijo4{
     position: absolute;
     background-color: crimson;
     float: right;
-    bottom: 0;
-    right: 0;
+    bottom:150px;
+    right: 150px;
 }
 .hijo3,.hijo4{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   
 
 
